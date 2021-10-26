@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url();
+}
+.sosmed{
+    background-color: black;
+}
+.sosmed ul li{
+    padding: 1px;
+    display: inline-block;
+    margin-left : 3px;
+    
+    
+}
+.sosmed ul li a{
+    color:#35F74B;
+    text-decoration: none;
+}
+/* .sosmed {
+    width: 100%; */
+
+.container {
+    width: 80%;
+    margin: 5px auto;
+}
+h2 { 
+    color: skyblue;
+    font-family: 'Pacifico', cursive ;
+    float: left;
+    margin: -13px auto;
+    font-size: 35px;
+    
+}
+.header{
+    margin:;
+    margin-bottom:-23px;
+}
+.header #header{
+    font-size: 10px;
+}
+.menu{
+    float: right;
+    display: inline-block;
+}
+.container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header{
+    border-bottom: 2px solid;
+}
+.menu ul{
+    float: right;
+ 
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    padding: 15px 25px;
+   
+    
+}
+.menu ul li a:hover{
+    color: red;
+    background-color: yellow;
+}
+.active {
+    color: red;
+    background-color: yellow;
+}
+.container-atas{
+    background-image: url(img/baner2.jpg);
+    width: 1000px%;
+    height: 900px;
+    position:cover;
+    
+}
+/* .baner{
+    border: 1px solid black;
+    height: 60vh;
+    /* <img src="..." class="img-fluid" alt="..."> */
+    background-size: cover;
+    background-color: skyblue;
+} */
+/* .baner::after{
+
+    contain: '';
+    display: block;
+    position: absolute;
+    top: ;
+    left: 0;
+    right: 0;
+    bottom: 100 %;
+} */
